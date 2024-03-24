@@ -42,4 +42,27 @@ body{
     width: 100%;
     border: 1px solid #222;
     padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+    .btn:hover {
+        background: #001e4d;
+        color: #fff;
+    }
+
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto auto;
+    border-radius: 4px;
+    cursor:pointer;
+    display: none;
 }
